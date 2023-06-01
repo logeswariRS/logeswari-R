@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link href="style.css"rel="stylesheet">
+
+    
+</head>
+<body>
+
+  <div class="col-sm-6" style="color: rgb(238, 118, 208); font-family:Arial, Helvetica, sans-serif; padding-top: 0px; margin-left: 80px;width: 1200px;">
+    <div class="row" > 
+        <div class="bg-img">
+        <div class="container"style="margin-top: -5px; margin-left:700px; ">
+          <div class="topnav" >
+            <a href="home.html" class="nav-link-active" style="border-radius: 20%;">Home</a>
+            <a href="feature.html" style="border-radius: 20%;">features</a>
+            <!-- <a href="products.html" style="border-radius: 20%;">Product</a> -->
+            <a href="contact us.html" style="border-radius: 20%;">Contact US</a>
+            <a href="about.html" style="border-radius: 20%;">About Us</a>
+          </div>
+        </div></div>
+      </div></div>
+    
+    <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+    * {box-sizing: border-box}
+    body {font-family: Verdana, sans-serif; margin:0}
+    .mySlides {display: none}
+    img {vertical-align: middle;}
+    
+    /* Slideshow container */
+    .slideshow-container {
+      max-width: 1000px;
+      position: relative;
+      margin: auto;
+    }
+    
+    /* Next & previous buttons */
+    .prev, .next {
+      cursor: pointer;
+      position: absolute;
+      top: 50%;
+      width: auto;
+      padding: 16px;
+      margin-top: -22px;
+      color: rgb(238, 44, 44);
+      font-weight: bold;
+      font-size: 18px;
+      transition: 0.6s ease;
+      border-radius: 0 3px 3px 0;
+      user-select: none;
+    }
+    
+    /* Position the "next button" to the right */
+    .next {
+      right: 0;
+      border-radius: 3px 0 0 3px;
+    }
+    
+    /* On hover, add a black background color with a little bit see-through */
+    .prev:hover, .next:hover {
+      background-color: rgba(0,0,0,0.8);
+    }
+    
+    /* Caption text */
+    .text {
+      color: #f2f2f2;
+      font-size: 15px;
+      padding: 8px 12px;
+      position: absolute;
+      bottom: 8px;
+      width: 100%;
+      text-align: center;
+    }
+    
+    /* Number text (1/3 etc) */
+    .numbertext {
+      color: #f2f2f2;
+      font-size: 12px;
+      padding: 8px 12px;
+      position: absolute;
+      top: 0;
+    }
+    
+    /* The dots/bullets/indicators */
+    .dot {
+      cursor: pointer;
+      height: 15px;
+      width: 15px;
+      margin: 0 2px;
+      background-color: #bbb;
+      border-radius: 50%;
+      display: inline-block;
+      transition: background-color 0.6s ease;
+    }
+    
+    .active, .dot:hover {
+      background-color: #717171;
+    }
+    
+    /* Fading animation */
+    .fade {
+      animation-name: fade;
+      animation-duration: 1.5s;
+    }
+    
+    @keyframes fade {
+      from {opacity: .4} 
+      to {opacity: 1}
+    }
+    
+    /* On smaller screens, decrease text size */
+    @media only screen and (max-width: 300px) {
+      .prev, .next,.text {font-size: 11px}
+    }
+
+
+
+
+
+
+
+    .footer-mid {
+    width: 50%;
+    float: left;
+    margin-right: 4%;
+}
+div {
+    margin: 0;
+    padding: 0;
+}
+div {
+    display: block;
+}
+body {
+    padding: 0px;
+    margin: 0px;
+    background: #FFFFFF;
+    font-size: 14px;
+    
+    font-family: 'proxima_nova_rgregular';
+    line-height: 20px;
+}
+
+
+
+
+.footer-rht {
+    width: 46%;
+    float: left;
+}
+div {
+    margin: 0;
+    padding: 0;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+div {
+    display: block;
+}
+    </style>
+    </head>
+    <body>
+    
+    <div class="slideshow-container">
+    
+    <div class="mySlides fade">
+      <div class="numbertext"></div>
+      <img src="https://www.nghospitalscbe.com/wp-content/uploads/2022/08/slider-home-2.jpg" style="width:100%">
+      <div class="text">Caption Text</div>
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext"></div>
+      <img src="	https://www.nghospitalscbe.com/wp-content/uploads/2022/08/slider-home-3.jpg" style="width:100%">
+      <div class="text">Caption Two</div>
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext"></div>
+      <img src="https://www.nghospitalscbe.com/wp-content/uploads/2022/08/slider-home-1.jpg" style="width:100%">
+      <div class="text">Caption Three</div>
+    </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+    
+    </div>
+    <br>
+    
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span> 
+      <span class="dot" onclick="currentSlide(2)"></span> 
+      <span class="dot" onclick="currentSlide(3)"></span> 
+    </div>
+    
+    <script>
+    let slideIndex = 1;
+    showSlides(slideIndex);
+    
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+    
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+    
+    function showSlides(n) {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex = 1}    
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+    }
+    </script>
+    
+
+
+    <!--  -->
+    <div style="background-color: rgb(250, 186, 221); margin-top: 190px; color: #1a1414;>
+    
+    <div class="footer-mid" style="background-color: rgb(145, 8, 31); color: #2b2121;">
+      <h2>Get in Touch</h2><hr>
+					<h3>PSG Hospitals</h3>
+          <ul>
+            <li class="map-icon"><p class="address">Peelamedu, Coimbatore - 641 004<br>
+              Tamil Nadu, INDIA.</p></li><li class="mail-icon"><a href="mailto:logu098ab@gmail.com">E-mail To</a> 
+                <a href="mailto:logu098ab@gmail.com">E-mail</a></li>
+                <li class="user-icon"><p>Help Line:
+                  | 						+91 9952149911</p></li>
+                  <li class="language"><span>Select your Language</span><!-- GTranslate: https://gtranslate.io/ -->
+                    <select onchange="doGTranslate(this);" class="notranslate" id="gtranslate_selector" aria-label="Website Language Selector"><option value="">Select Language</option><option value="en|en">English</option><option value="en|ar">Arabic</option><option value="en|zh-CN">Chinese (Simplified)</option><option value="en|nl">Dutch</option><option value="en|fr">French</option><option value="en|de">German</option><option value="en|it">Italian</option><option value="en|pt">Portuguese</option><option value="en|ru">Russian</option><option value="en|es">Spanish</option><option value="en|ta">Tamil</option></select><style>#goog-gt-tt{display:none!tant;}.goog-te-banner-frame{display:none!important;}.goog-te-menu-value:hover{text-decoration:none!important;}.goog-text-highlight{background-color:transparent!important;box-shadow:none!important;}body{top:0!important;}#google_translate_element2{display:none!important;}</style>
+                    <div id="google_translate_element2"><div class="skiptranslate goog-te-gadget" dir="ltr" style=""><div id=":0.targetLanguage"><select class="goog-te-combo" aria-label="Language Translate Widget"><option value="">Select Language</option><option value="af">Afrikaans</option><option value="sq">Albanian</option><option value="am">Amharic</option><option value="ar">Arabic</option><option value="hy">Armenian</option><option value="as">Assamese</option><option value="ay">Aymara</option><option value="az">Azerbaijani</option><option value="bm">Bambara</option><option value="eu">Basque</option><option value="be">Belarusian</option><option value="bn">Bengali</option><option value="bho">Bhojpuri</option><option value="bs">Bosnian</option><option value="bg">Bulgarian</option><option value="ca">Catalan</option><option value="ceb">Cebuano</option><option value="ny">Chichewa</option><option value="zh-CN">Chinese (Simplified)</option><option value="zh-TW">Chinese (Traditional)</option><option value="co">Corsican</option><option value="hr">Croatian</option><option value="cs">Czech</option><option value="da">Danish</option><option value="dv">Dhivehi</option><option value="doi">Dogri</option><option value="nl">Dutch</option><option value="eo">Esperanto</option><option value="et">Estonian</option><option value="ee">Ewe</option><option value="tl">Filipino</option><option value="fi">Finnish</option><option value="fr">French</option><option value="fy">Frisian</option><option value="gl">Galician</option><option value="ka">Georgian</option><option value="de">German</option><option value="el">Greek</option><option value="gn">Guarani</option><option value="gu">Gujarati</option><option value="ht">Haitian Creole</option><option value="ha">Hausa</option><option value="haw">Hawaiian</option><option value="iw">Hebrew</option><option value="hi">Hindi</option><option value="hmn">Hmong</option><option value="hu">Hungarian</option><option value="is">Icelandic</option><option value="ig">Igbo</option><option value="ilo">Ilocano</option><option value="id">Indonesian</option><option value="ga">Irish Gaelic</option><option value="it">Italian</option><option value="ja">Japanese</option><option value="jw">Javanese</option><option value="kn">Kannada</option><option value="kk">Kazakh</option><option value="km">Khmer</option><option value="rw">Kinyarwanda</option><option value="gom">Konkani</option><option value="ko">Korean</option><option value="kri">Krio</option><option value="ku">Kurdish (Kurmanji)</option><option value="ckb">Kurdish (Sorani)</option><option value="ky">Kyrgyz</option><option value="lo">Lao</option><option value="la">Latin</option><option value="lv">Latvian</option><option value="ln">Lingala</option><option value="lt">Lithuanian</option><option value="lg">Luganda</option><option value="lb">Luxembourgish</option><option value="mk">Macedonian</option><option value="mai">Maithili</option><option value="mg">Malagasy</option><option value="ms">Malay</option><option value="ml">Malayalam</option><option value="mt">Maltese</option><option value="mi">Maori</option><option value="mr">Marathi</option><option value="mni-Mtei">Meiteilon (Manipuri)</option><option value="lus">Mizo</option><option value="mn">Mongolian</option><option value="my">Myanmar (Burmese)</option><option value="ne">Nepali</option><option value="no">Norwegian</option><option value="or">Odia (Oriya)</option><option value="om">Oromo</option><option value="ps">Pashto</option><option value="fa">Persian</option><option value="pl">Polish</option><option value="pt">Portuguese</option><option value="pa">Punjabi</option><option value="qu">Quechua</option><option value="ro">Romanian</option><option value="ru">Russian</option><option value="sm">Samoan</option><option value="sa">Sanskrit</option><option value="gd">Scots Gaelic</option><option value="nso">Sepedi</option><option value="sr">Serbian</option><option value="st">Sesotho</option><option value="sn">Shona</option><option value="sd">Sindhi</option><option value="si">Sinhala</option><option value="sk">Slovak</option><option value="sl">Slovenian</option><option value="so">Somali</option><option value="es">Spanish</option><option value="su">Sundanese</option><option value="sw">Swahili</option><option value="sv">Swedish</option><option value="tg">Tajik</option><option value="ta">Tamil</option><option value="tt">Tatar</option><option value="te">Telugu</option><option value="th">Thai</option><option value="ti">Tigrinya</option><option value="ts">Tsonga</option><option value="tr">Turkish</option><option value="tk">Turkmen</option><option value="ak">Twi</option><option value="uk">Ukrainian</option><option value="ur">Urdu</option><option value="ug">Uyghur</option><option value="uz">Uzbek</option><option value="vi">Vietnamese</option><option value="cy">Welsh</option><option value="xh">Xhosa</option><option value="yi">Yiddish</option><option value="yo">Yoruba</option><option value="zu">Zulu</option></select></div>Powered by <span style="white-space:nowrap"><a class="VIpgJd-ZVi9od-l4eHX-hSRGPd" href="https://translate.google.com" target="_blank"><img src="https://www.gstatic.com/images/branding/googlelogo/1x/googlelogo_color_42x16dp.png" width="37px" height="14px" style="padding-right: 3px" alt="Google Translate">Translate</a></span></div></div>
+<script>function googleTranslateElementInit2() {new google.translate.TranslateElement({pageLanguage: 'en',autoDisplay: false}, 'google_translate_element2');}if(!window.gt_translate_script){window.gt_translate_script=document.createElement('script');gt_translate_script.src='https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit2';document.body.appendChild(gt_translate_script);}</script>
+
+<script>
+function GTranslateGetCurrentLang() {var keyValue = document['cookie'].match('(^|;) ?googtrans=([^;]*)(;|$)');return keyValue ? keyValue[2].split('/')[2] : null;}
+function GTranslateFireEvent(element,event){try{if(document.createEventObject){var evt=document.createEventObject();element.fireEvent('on'+event,evt)}else{var evt=document.createEvent('HTMLEvents');evt.initEvent(event,true,true);element.dispatchEvent(evt)}}catch(e){}}
+function doGTranslate(lang_pair){if(lang_pair.value)lang_pair=lang_pair.value;if(lang_pair=='')return;var lang=lang_pair.split('|')[1];if(GTranslateGetCurrentLang() == null && lang == lang_pair.split('|')[0])return;if(typeof ga=='function'){ga('send', 'event', 'GTranslate', lang, location.hostname+location.pathname+location.search);}var teCombo;var sel=document.getElementsByTagName('select');for(var i=0;i<sel.length;i++)if(sel[i].className.indexOf('goog-te-combo')!=-1){teCombo=sel[i];break;}if(document.getElementById('google_translate_element2')==null||document.getElementById('google_translate_element2').innerHTML.length==0||teCombo.length==0||teCombo.innerHTML.length==0){setTimeout(function(){doGTranslate(lang_pair)},500)}else{teCombo.value=lang;GTranslateFireEvent(teCombo,'change');GTranslateFireEvent(teCombo,'change')}}
+</script>
+</li>
+                    </ul>
+				</div>
+    </div>
+
+    <div class="footer-rht" style="background-color: rgb(231, 190, 224); margin-left: 350px;margin-top: -350px; color: #1d0202;font-family: monospace;">
+      <h3>Quick Links</h3><hr>
+      <!-- <h3>Quick Links</h3> -->
+                <ul id="menu-quick-menu" class="lft" style="color: #080101;"><li id="menu-item-3713" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3713">Hospital Directory</a></li>
+<li id="menu-item-3714" style="color: #2b2121;" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3714">Patient Rights</a></li>
+<li id="menu-item-3715" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3715>Hospital Tariff">society</li>
+<li id="menu-item-3716" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3716">Social Responsibilities</a></li>
+<li id="menu-item-3717" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3717">PSG Hospital Certified Course</a></li>
+<li id="menu-item-3719" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3719">Patient Education</a></li>
+<li id="menu-item-3720" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3720"><a target="_blank" rel="noopener">BMW-Annual Report</a></li>
+<li id="menu-item-4136" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4136"><a target="_blank" rel="noopener" >Environmental Clearance Certificate</a></li>
+<li id="menu-item-5228" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5228"><a target="_blank" rel="noopener">Environmental Clearance Compliance Report</a></li>
+</ul>				</div></div>
+
+
+ <img src="logo.jpg.png" style="margin-left: 1100px;width: 100px;height: 100px;margin-top: -350px;">
+<!-- <ul style="margin-left: 700px; display: block; margin-top: -180px;"> -->
+  <!-- <li><a href="https://www.facebook.com/PSGHospitalsCoimbatore/" target="_blank"><img src="https://cdn-icons-png.flaticon.com/128/665/665228.png"></a></li> -->
+  <!-- <li><a href="https://twitter.com/psghospitals?lang=en" target="_blank"><img src="https://cdn-icons-png.flaticon.com/128/1077/1077046.png"></a></li> -->
+  <!-- <li><a href="https://www.instagram.com/psghospitals/" target="_blank"><img src="https://cdn-icons-png.flaticon.com/128/665/665209.png"></a></li> -->
+  <!-- <li><a href="https://www.youtube.com/channel/UCP3WBMuneR1LjF2xQzDAJGg" target="_blank"><img src="https://t4.ftcdn.net/jpg/01/14/70/95/240_F_114709500_5PNvSv8xFzShX7UFaGiLXrySKkCGqjql.jpg"></a></li> -->
+  <!-- <li><a href="" ><img src="/assets/images/whatsapp-icon.png"></a></li>--> 
+  <!-- <li><a href="#ctc_chat"><img src="https://www.psghospitals.com/wp-content/themes/psghospitals/assets/images/whatsapp-icon.png"></a></li>
+
+</ul> --> 
+    <!--  -->
+
+    <div class="wrapper" style="margin-top:-70px;display: flex; margin-left: 1100px;padding: 0px 15px;">
+      <div class="icon facebook">
+        <div class="tooltip"></div>
+        <span><i class="fab fa-facebook-f"></i></span>
+      </div>
+
+     
+        <div class="icon twitter">
+          <div class="tooltip"></div>
+          <span><i class="fab fa-twitter"></i></span>
+        </div>
+
+        
+          <div class="icon instagram">
+            <div class="tooltip"></div>
+            <span><i class="fab fa-instagram"></i></span>
+          </div>
+          
+            <div class="icon youtube">
+              <div class="tooltip"></div>
+              <span><i class="fab fa-youtube"></i></span>
+            </div>
+           
+              <div class="icon github">
+                <div class="tooltip"></div>
+                <span><i class="fab fa-github"></i></span>
+              </div>
+
+    </div>
+    </body>
+    </html> 
+    
+   
+    
+       
+    
+</body>
+</html>
